@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon Leverton - Digital Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Simon Leverton</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>I am Simon Leverton, a digital designer passionate about creating interactive and visually stunning experiences. With experience in e-learning, video production, and web design, I bring ideas to life through innovative solutions.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="grid">
+                <div class="portfolio-item">
+                    <img src="portfolio1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Interactive E-Learning Platform</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Stop Motion Animation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h1>Skills</h1>
+            <ul>
+                <li>Video Editing (Final Cut Pro, Vyond)</li>
+                <li>Interactive Media Design</li>
+                <li>Stop Motion Animation</li>
+                <li>Graphic Design</li>
+                <li>Web Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Simon Leverton. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
